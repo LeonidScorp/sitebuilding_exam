@@ -34,7 +34,9 @@
 .block-views-blockservices-block-1 {
   text-transform: uppercase;
   text-align: center;
-  @include lined_header;
+  & > h2 {
+    @include lined_header;
+  }
   .views-row {
     .views-field-field-image {
       margin-top: 80px;
@@ -59,6 +61,14 @@
         padding: 6px;
         text-decoration: none;
       }
+    }
+  }
+}
+@media (max-width: 1200px ) {
+  #block-linktoabout {
+    margin: 20px;
+    .field--name-body {
+      display: none;
     }
   }
 }

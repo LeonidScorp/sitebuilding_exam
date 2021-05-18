@@ -1,7 +1,10 @@
 @import "../mixin";
 .block-views-blockprojects-block-1 {
   margin-top: 120px;
-  @include lined_header;
+  & > h2 {
+    @include lined_header;
+  }
+
   text-transform: uppercase;
   text-align: center;
   h2 {
@@ -12,6 +15,7 @@
     .view-content {
       width: 100%;
       justify-content: center;
+      margin: 0;
     }
     background-image: linear-gradient(135deg, #cacaca 8.33%, #fefefe 8.33%, #fefefe 50%, #cacaca 50%, #cacaca 58.33%, #fefefe 58.33%, #fefefe 100%);
     background-size: 8.49px 8.49px;
@@ -74,10 +78,24 @@
   .pagination {
     margin: 40px 0 120px;
     justify-content: center;
+    .pager__item--next, .pager__item--previous {
+      a {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: transparent;
+        padding: 0;
+        line-height: 30px;
+        border: none;
+        color: #818081;
+      }
+    }
     .page-item {
       &.active {
         .page-link {
+          font-weight: bold;
           background-color: #DCDBDC;
+          color: #818081;
         }
       }
       .page-link {
@@ -87,6 +105,8 @@
         background-color: transparent;
         padding: 0;
         line-height: 30px;
+        border: none;
+        color: #818081;
       }
     }
   }

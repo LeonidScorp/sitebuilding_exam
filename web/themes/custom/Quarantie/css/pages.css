@@ -1,0 +1,43 @@
+@charset "UTF-8";
+.view-full-search .views-field-title {
+  font-weight: bold;
+  margin: 20px auto 30px;
+  display: block;
+}
+.view-full-search .view-content {
+  flex-direction: column;
+}
+
+.path-projects .view-content, .path-news .view-content, .page-view-full-search .view-content, .path-clients .view-content, .path-team .view-content {
+  flex-direction: column;
+}
+.path-projects h1, .path-news h1, .page-view-full-search h1, .path-clients h1, .path-team h1 {
+  max-width: 1110px;
+  margin: 0 auto;
+  z-index: 1;
+  overflow: hidden;
+  position: relative;
+  display: block;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  margin: 40px 0;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.path-projects h1::before, .path-projects h1:after, .path-news h1::before, .path-news h1:after, .page-view-full-search h1::before, .page-view-full-search h1:after, .path-clients h1::before, .path-clients h1:after, .path-team h1::before, .path-team h1:after {
+  content: " ";
+  width: 50%;
+  top: 51%;
+  height: 1px;
+  background-color: #cacaca;
+  position: absolute;
+  overflow: hidden;
+}
+.path-projects h1::before, .path-news h1::before, .page-view-full-search h1::before, .path-clients h1::before, .path-team h1::before {
+  margin-left: -50%;
+  margin-right: 20px;
+  text-align: right;
+}
+
+/*# sourceMappingURL=pages.css.map */
