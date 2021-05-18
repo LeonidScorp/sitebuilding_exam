@@ -135,6 +135,23 @@
 }
 @media (max-width: 600px) {
   .news-post {
+    .col-12:first-child {
+      display: none;
+    }
     margin: 0;
+    .col-2 {
+      display: none;
+    }
+    .col-10 {
+      width: 100%;
+      max-width: 100%;
+      flex: 0 0 100%;
+    }
+    .created_ago {
+      display: none;
+    }
+    .role {
+      display: none;
+    }
   }
 }

@@ -448,6 +448,23 @@
   .news-post {
     margin: 0;
   }
+  .news-post .col-12:first-child {
+    display: none;
+  }
+  .news-post .col-2 {
+    display: none;
+  }
+  .news-post .col-10 {
+    width: 100%;
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+  .news-post .created_ago {
+    display: none;
+  }
+  .news-post .role {
+    display: none;
+  }
 }
 .block-views-blockclients-carousele-block-1 {
   margin-bottom: 120px;
