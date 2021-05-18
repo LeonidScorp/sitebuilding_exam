@@ -2,7 +2,6 @@
 
 ## Setup instructions
 
-```sudo apt-get install npm```
 
 ```fin init```
 
