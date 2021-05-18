@@ -2,10 +2,10 @@
 
 ## Setup instructions
 
-    ```sudo apt-get install npm```
-    
-    ```fin init```
-    
-     ```fin db import db.sql```
-   
-    ```fin drush uli```
+```sudo apt-get install npm```
+
+```fin init```
+
+```fin db import db.sql```
+
+```fin db drush uli```
