@@ -7,6 +7,6 @@
 
 ```fin db import db.sql```
 
-```fin db drush cr```
+```fin drush cr```
 
 ```fin db drush uli```
