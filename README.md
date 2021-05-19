@@ -9,4 +9,4 @@
 
 ```fin drush cr```
 
-```fin db drush uli```
+```fin drush uli```
